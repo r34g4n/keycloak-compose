@@ -23,6 +23,6 @@ docker-compose up -d
 
 # Remove the copied certificates
 echo "Removing copied certificates..."
-rm -rf "${KC_HOSTNAME}"
+sudo rm -rf "${KC_HOSTNAME}"
 
 echo "Keycloak setup completed."
