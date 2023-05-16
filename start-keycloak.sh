@@ -14,7 +14,7 @@ fi
 
 # Copy certificates to the current directory
 echo "Copying certificates from '$CERT_DIR' to the current directory..."
-cp -R "$CERT_DIR" .
+sudo cp -R "$CERT_DIR" .
 ls -a .
 
 # Start the Docker Compose setup
